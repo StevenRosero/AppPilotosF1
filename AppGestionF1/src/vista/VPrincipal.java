@@ -11,6 +11,7 @@ import javax.swing.UIManager;
 import javax.swing.WindowConstants;
 
 import controlador.ControladorPI;
+
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
@@ -98,6 +99,9 @@ public class VPrincipal extends JFrame implements MetodosIni {
 	@Override
 	public void setControlador(ControladorPI control) {
 		spnContenedor.addMouseListener(control);
-
+		mntmRegistro.addActionListener(control);
+		mntmConsulta.addActionListener(control);
 	}
+	
+	
 }

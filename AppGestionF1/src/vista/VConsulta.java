@@ -111,7 +111,7 @@ public class VConsulta extends JPanel implements MetodosIni {
 		dtm.addColumn("Escuderia");
 		
 		tblPilotos.getColumn("Numero").setPreferredWidth(15);
-		tblPilotos.getColumn("NOMBRE").setPreferredWidth(15);
+		tblPilotos.getColumn("Nombre").setPreferredWidth(15);
 		tblPilotos.getColumn("Nacionalidad").setPreferredWidth(15);
 		tblPilotos.getColumn("Edad").setPreferredWidth(15);
 		tblPilotos.getColumn("Escuderia").setPreferredWidth(15);

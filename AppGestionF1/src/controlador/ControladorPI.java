@@ -81,7 +81,9 @@ public class ControladorPI implements ActionListener, MouseListener{
 	}
 	
 	
-	
+	public void setvMod(VRegistro vReg) {
+		this.vRegis = vRegis;
+	}
 	
 	
 	
